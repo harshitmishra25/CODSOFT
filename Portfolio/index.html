@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()"><i class="fa fa-arrow-up"></i></button>
+          <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">Harshit Mishra</a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">Portfolio</a></li>
+            
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1 class="name">I am Harshit Mishra</h1>
+            <p><span class="typing"></span></p>
+        </div>
+    </div>
+
+   
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="images/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <p><span>Name:</span> Harshit Mishra</p>
+                            <p><span>Profile:</span> Web Developer</p>
+                            <p><span>Email:</span> harshitmishra2003@gmail.com</p>
+                            <p><span>Phone:</span>8849196362</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-line"><span class="html"></span></div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="javascript"></span></div>
+                        <div class="skill">
+                            <span>Php</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-line"><span class="php"></span></div>
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <p><b>Non Technical Skills </b></p>
+                    <p>Sports</p>
+                    <p>Adaptability</p>
+                    <p>Teamwork</p>
+                    <p>Time Managment</p>
+                    <p>PLSD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">Web Development</div>
+                        
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                        <div class="card-title">Web Design</div>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-laptop"></i></div>
+                        <div class="card-title">Responsive Design</div>
+                        
+                    </div>
+                </div>
+               
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-wordpress"></i></div>
+                        <div class="card-title">Wordpress</div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                        <img src="https://unbounce.com/photos/best-design-1024-576.jpg" alt="">  
+                        </div>
+                        <div class="info">
+                            <h3>Project 1</h3>
+                            <p><span class="category">Web Design</span> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://repository-images.githubusercontent.com/525704913/bfb6b312-e99a-4a41-81d7-677b4e7d1b8d" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 2</h3>
+                            <p><span class="category">Calculator</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://wp.disruptiveadvertising.com/wp-content/uploads/2018/01/landing-page-blog-1.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 3</h3>
+                            <p><span class="category">Landing Page</span> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="https://www.mindinventory.com/blog/wp-content/uploads/2022/10/UX-UI-design.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <h3>Project 4</h3>
+                            <p><span class="category">UX-UI Design</span> </p>
+                        </div>
+                    </div>
+                </div>
+                
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form>
+                        <h3 class="heading">Send Message us</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                
+                    <div class="info"><i class="fa fa-map-marker"></i>18/3 Ahmedabad Chandkheda 85990</div>
+                    <div class="info"><i class="fa fa-phone"></i>8849196362</div>
+                    <div class="info"><i class="fa fa-envelope"></i>harshitmishra2003@gmail.com</div>
+                    <div class="info"><i class="fa fa-instagram"></i>harshit_mishra_006</div>
+                    <div class="info"><i class="fa fa-twitter"></i>@harshit98599069</div>
+                    
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                         <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+       <script src="script.js"></script>
+</body>
+</html>
